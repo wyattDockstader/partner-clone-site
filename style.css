@@ -1,11 +1,21 @@
 :root{
     --deere-green:  #258642;
 }
-
+img{
+    width:100%;
+}
 
 .moto{
     height: 340px;
     background-image:url(https://www.deere.com/assets/images/common/home-page/nogoingback-1366x347.jpg);
 }
-
-
+.green-color{
+    background-color:var(--deere-green)
+}
+.model{
+    width: 180px;
+}
+svg{
+    display:flex;
+    justify-content:space-around;
+}

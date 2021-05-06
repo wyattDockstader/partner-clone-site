@@ -14,45 +14,102 @@
 
 <body>
     <header>
-        <nav>TODO - </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Equiptment <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parts-service">Parts & Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find a Dealer</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
 
     </header>
     <section class="link bar container-fluid">
-        <div class="row equip flex-wrap d-flex text-center">
+        <div class="row equip flex-wrap d-flex text-center m-0 p-5">
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/agriculture-PSO-181x102.jpg"
+                    alt="tab image">
+                <span></span>
+            </div>
+            <div class="col-1">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/lawn-and-garden-PSO-181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/construction-PSO-181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/landscaping-and-grounds-care-PSO-181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/golf-and-sports-turf-PSO-181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/forestry-PSO-181x102.jpg" alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/engines-and-drivetrain-PSO-181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/military_excavator_181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
             <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
-                <span>..</span>
-            </div>
-            <div class="col-1">
-                <img class="img-fluid" src="https://via.placeholder.com/170" alt="tab image">
+                <img class="img-fluid"
+                    src="https://www.deere.com/assets/images/common/home-page/rental-sales-PSO-181x102.jpg"
+                    alt="tab image">
                 <span>..</span>
             </div>
 
@@ -61,7 +118,7 @@
 
     </section>
     <section class="moto container-fluid">
-        <div class="row height">
+        <div class="row">
             <div class="col">
                 <!--             <img class=""
                     src="https://www.deere.com/assets/images/common/home-page/nogoingback-1366x347.jpg" alt="">
@@ -75,73 +132,181 @@
     </section>
     <section class="site nav container">
         <div class="row">
-            <nav>TODO nav bar</nav>
+            <div class="col bg-dark text-white d-flex m-3 p-1 d-flex">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>Find a Dealer
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-nut-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M4.58 1a1 1 0 0 0-.868.504l-3.428 6a1 1 0 0 0 0 .992l3.428 6A1 1 0 0 0 4.58 15h6.84a1 1 0 0 0 .868-.504l3.429-6a1 1 0 0 0 0-.992l-3.429-6A1 1 0 0 0 11.42 1H4.58zm5.018 9.696a3 3 0 1 1-3-5.196 3 3 0 0 1 3 5.196z" />
+                    </svg>Build & Price
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>Shop Pre Owned
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-download" viewBox="0 0 16 16">
+                        <path
+                            d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                        <path
+                            d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                    </svg>Download Manuals
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>Buy Parts
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-tag-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1H2zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>Offers & Discounts
+                </span>
+
+            </div>
         </div>
         <div class="row d-flex">
             <div class="col-6 com-sm-12 style">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum aliquam? Perferendis.</p>
-                <button>Button</button>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.deere.com/assets/images/common/home-page/may-homepage-jdstore.jpg"
+                        alt="Card image cap">
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cool Summer Offers</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+                            perspiciatis placeat voluptas cum sed porro!</p>
+                        <a href="#" class="btn btn-outline-warning">Start Saving Today</a>
+                    </div>
+                </div>
             </div>
             <div class="col-6 com-sm-12 style">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum aliquam? Perferendis.</p>
-                <button>Button</button>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.deere.com/assets/images/common/home-page/ag-march-5m-teaser-632x384.jpg"
+                        alt="Card image cap">
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cool Summer Offers</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+                            perspiciatis placeat voluptas cum sed porro!</p>
+                        <a href="#" class="btn btn-outline-warning">Start Saving Today</a>
+                    </div>
+                </div>
             </div>
             <div class="col-6 com-sm-12 style">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum aliquam? Perferendis.</p>
-                <button>Button</button>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.deere.com/assets/images/common/home-page/350g-lc-sg-632x384.jpg"
+                        alt="Card image cap">
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cool Summer Offers</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+                            perspiciatis placeat voluptas cum sed porro!</p>
+                        <a href="#" class="btn btn-outline-warning">Start Saving Today</a>
+                    </div>
+                </div>
             </div>
             <div class="col-6 com-sm-12 style">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum aliquam? Perferendis.</p>
-                <button>Button</button>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.deere.com/assets/images/common/home-page/768l-ii-skidder.jpg"
+                        alt="Card image cap">
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cool Summer Offers</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+                            perspiciatis placeat voluptas cum sed porro!</p>
+                        <a href="#" class="btn btn-outline-warning">Start Saving Today</a>
+                    </div>
+                </div>
             </div>
             <div class="col-6 com-sm-12 style">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum aliquam? Perferendis.</p>
-                <button>Button</button>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.deere.com/assets/images/common/home-page/deere-season-march-632x384.jpg"
+                        alt="Card image cap">
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cool Summer Offers</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+                            perspiciatis placeat voluptas cum sed porro!</p>
+                        <a href="#" class="btn btn-outline-warning">Start Saving Today</a>
+                    </div>
+                </div>
             </div>
             <div class="col-6 com-sm-12 style">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, rerum aliquam? Perferendis.</p>
-                <button>Button</button>
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.deere.com/assets/images/common/home-page/buyonline3-nmb.jpg"
+                        alt="Card image cap">
+                    <div class="card-body bg-secondary text-white">
+                        <h5 class="card-title">Cool Summer Offers</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
+                            perspiciatis placeat voluptas cum sed porro!</p>
+                        <a href="#" class="btn btn-outline-warning">Start Saving Today</a>
+                    </div>
+                </div>
             </div>
-        </div>
     </section>
     <section class="container ">
         <div class="row margin-auto justify-content-center ">
             <h2 class="py-5">LIVING JOHN DEERE</h2>
         </div>
         <div class="row d-flex">
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="https://via.placeholder.com/150" alt="tab image">
+            <div class="fix-picture col-12 col-md-6 col-lg-3 ">
+                <img src="https://www.deere.com/assets/images/common/home-page/josh-ming-772x864.jpg" alt="tab image">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sint maiores accusantium delectus
                     earum? Cumque animi labore explicabo corrupti provident.</p>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img src="https://via.placeholder.com/150" alt="tab image">
+                <img src="https://www.deere.com/assets/images/common/home-page/yankee-star.jpg" alt="tab image">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquam hic repudiandae, omnis
                     fugiat incidunt porro excepturi quam non consequatur.
                 </p>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img src="https://via.placeholder.com/150" alt="tab image">
+                <img src="https://www.deere.com/assets/images/common/home-page/digging-data-772x864.jpg"
+                    alt="tab image">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem inventore eos quaerat est
                     assumenda sit officiis odio molestias corporis!</p>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img src="https://via.placeholder.com/150" alt="tab image">
+                <img src="https://www.deere.com/assets/images/common/home-page/Q3_earnings.jpg" alt="tab image">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab totam amet impedit cumque obcaecati
                     sapiente repudiandae nihil asperiores ex in.</p>
             </div>
         </div>
     </section>
     <section class="container search">
-        <div class="row">
+        <div class="row" id="parts-service">
             <div class="col-12">
                 <h2>Search Parts by</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                <nav>TODO search bar</nav>
+            <div class="col-12 d-flex p-3 m-3">
+                <button class="model green-color text-white m-2">Model v</button>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
+        </div>
+        <div class="row display-inline-block">
+            <input type="checkbox" name="parts" onclick="">
+            <label for="Search Parts by Other Manufacturers">Search Parts by Other Manufacturers</label>
         </div>
     </section>
     <section class="container info">
@@ -167,7 +332,15 @@
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
